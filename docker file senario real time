@@ -132,5 +132,5 @@ ENV PATH=$PATH:/usr/share/elasticsearch/bin
 # Define default command to run Elasticsearch
 CMD ["elasticsearch"]
 
-# Expose necessary ports
+## Expose necessary ports
 EXPOSE 9200 9300
